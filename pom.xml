@@ -116,7 +116,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>microservice</finalName>
+		<finalName>miniservice</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
