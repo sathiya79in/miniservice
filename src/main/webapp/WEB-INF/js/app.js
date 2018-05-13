@@ -170,7 +170,7 @@ angular.module('Poc').controller('TemplateController', function($scope, $http) {
 			'method' : 'POST',
 			'url' :'/miniservice/vesttemplate',
 			'data' : {
-				'name': $scope.name,
+				'templateName': $scope.templateName,
 				'months': $scope.months,
 				'percent':$scope.percent,
 				'vestType': $scope.vestType
