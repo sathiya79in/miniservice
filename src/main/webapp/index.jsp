@@ -15,7 +15,7 @@
   <div class="form-group row">
     <label for="employeeId" class="col-sm-2 col-form-label">Employee</label>
     <div class="col-sm-10">
-      <select ng-model="employeeId" id="employeeId">
+      <select ng-model="employeeId" id="employeeId" class="form-control">
       	<option value="">Select an Employee</option>
       	<option ng-repeat="emp in employee" value={{emp.id}}>{{emp.firstName +" " +emp.lastName}}</option>
       </select>
@@ -24,7 +24,7 @@
   <div class="form-group row">
     <label for="planId" class="col-sm-2 col-form-label">Plan</label>
     <div class="col-sm-10">
-      <select ng-model="planId" id="planId">
+      <select ng-model="planId" id="planId" class="form-control">
       	<option value="">Select a Plan</option>
       	<option ng-repeat="p in plan" value={{p.planId}}>{{p.name}}</option>
       </select>
@@ -33,7 +33,7 @@
 <div class="form-group row">
     <label for="name" class="col-sm-2 col-form-label">Vesting Template</label>
     <div class="col-sm-10">
-      <select  ng-model="templateId" id="templateId">
+      <select  ng-model="templateId" id="templateId" class="form-control">
       	<option value="">Select a vesting template</option>
       	<option ng-repeat="t in template" value={{t.templateId}}>{{t.templateName}}</option>
       </select>
